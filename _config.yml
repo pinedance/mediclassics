@@ -1,0 +1,33 @@
+title: 'Mediclassics Articles'
+description: "site description for seo"
+baseurl: "/mediclassics"
+url: "//pinedance.github.io"
+google_analytics: UA-72863252-1
+permalink:          /:year/:month/:day/:title # Post permalink
+timezone:           Asia/Seoul
+
+header_pages:
+  - index.md
+  - about.md
+  - contact.md
+
+#style: light # dark (default) or light
+style: dark
+
+footer: 'follow us on <a href="https://twitter.com/">twitter</a>'
+
+# Build settings
+markdown: kramdown
+# remote_theme: b2a3e8/jekyll-theme-console
+
+plugins:
+  - jekyll-seo-tag
+
+
+# Build settings
+host: 0.0.0.0
+port: 8384
+
+# Other Params
+include:            [ "robots.txt" ]
+exclude:            [ "LICENSE", "README.md", "CNAME", "vendor", "Gemfile" ]
