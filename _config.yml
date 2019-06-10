@@ -1,33 +1,42 @@
-title: 'Mediclassics Articles'
-description: "site description for seo"
-baseurl: "/mediclassics"
-url: "//pinedance.github.io"
+title: Mediclassics Articles
+description: "Articles for Traditional Medicine of East Asian"
+author:
+  name: "Junho Oh"
+  email: "pinedance@gmail.com"
+  url: "https://pinedance.github.io"
+
 google_analytics: UA-72863252-4
-permalink:          /:year/:month/:day/:title # Post permalink
-timezone:           Asia/Seoul
+baseurl: /mediclassics
 
-header_pages:
-  - index.md
-  - about.md
-  - contact.md
+source: .
+# destination: ./_site
+permalink: /:title
+paginate: 8
+paginate_path: /page/:num/
 
-#style: light # dark (default) or light
-style: dark
-
-footer: 'follow us on <a href="https://twitter.com/">twitter</a>'
 
 # Build settings
-markdown: kramdown
-# remote_theme: b2a3e8/jekyll-theme-console
+host: localhost
+port: 8384
 
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+
+future: true
 plugins:
   - jekyll-seo-tag
+  - jekyll-paginate
+  - jekyll-sitemap
 
-
-# Build settings
-host: 0.0.0.0
-port: 8384
+# Custom variables
+owner : "Junho"
+year : "2019"
 
 # Other Params
 include:            [ "robots.txt" ]
-exclude:            [ "LICENSE", "README.md", "CNAME", "vendor", "Gemfile" ]
+exclude:            [ "LICENSE", "README.md", "CNAME", "vendor", "Gemfile", ".gitignore" ]
