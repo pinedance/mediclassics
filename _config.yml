@@ -2,7 +2,7 @@ title: 'Mediclassics Articles'
 description: "site description for seo"
 baseurl: "/mediclassics"
 url: "//pinedance.github.io"
-google_analytics: UA-72863252-1
+google_analytics: UA-72863252-4
 permalink:          /:year/:month/:day/:title # Post permalink
 timezone:           Asia/Seoul
 
