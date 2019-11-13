@@ -27,6 +27,7 @@ defaults:
     values:
       layout: "post"
 
+markdown: kramdown
 future: true
 plugins:
   - jekyll-seo-tag
@@ -39,4 +40,4 @@ year : "2019"
 
 # Other Params
 include:            [ "robots.txt" ]
-exclude:            [ "LICENSE", "README.md", "CNAME", "vendor", "Gemfile", ".gitignore" ]
+exclude:            [ "LICENSE", "README.md", "CNAME", "vendor", "Gemfile", ".gitignore", "ref_data" ]

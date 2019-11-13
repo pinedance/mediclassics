@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "How to Analysis Text Data of Traditional East Asian Medicine"
-categories:
+categories: [지식]
 ---
 
 ## 한의학 데이터 분석 튜토리얼

@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "논문 다운로드, 무료로 하기"
-categories: [정보]
+categories: [연구]
 ---
 
 ## 배경
