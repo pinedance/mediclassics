@@ -1,8 +1,0 @@
-dateschema: "%Y.%m.%d"
-
-page:
-  index:
-    truncatewords: 50
-
-url:
-  homepage: "//pinedance.github.io"

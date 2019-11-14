@@ -1,7 +1,8 @@
 ---
 layout: post
 title:  "처음 페이지"
-categories:
+categories: [test]
+tags: [test]
 ---
 
-이제 시작한다. 
+이제 시작한다.

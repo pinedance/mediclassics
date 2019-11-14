@@ -1,10 +1,6 @@
 ---
-layout: default
+layout: layout
 ---
 
-<article>
-  <h1>{{ page.title }}</h1>
-  <time datetime="{{ page.date | date_to_xmlschema }}" class="by-line">{{ page.date | date: site.data.config.dateschema }}</time>
-  <br><br><br>
-  {{ content }}
-</article>
+{% assign __ = site.data.languages[site.language] %}
+{% include post.html %}

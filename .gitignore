@@ -1,6 +1,11 @@
-_site
-.sass-cache
-.jekyll-metadata
-.bundle
-vendor
-Gemfile.lock
+_site/*
+_theme_packages/*
+
+Thumbs.db
+.DS_Store
+
+!.gitkeep
+
+.rbenv-version
+.rvmrc
+/vendor
