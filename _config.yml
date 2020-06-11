@@ -77,8 +77,7 @@ plugins:
 # Site Information Settings
 # ---------------------------------------------------------------
 
-# Put your favicon.ico into `assets/` directory.
-favicon: /assets/favicon.ico
+favicon: "//pinedance.github.io/blog/assets/favicon.png"
 
 # Set default keywords (Use a comma to separate)
 keywords: "Jekyll, NexT"
