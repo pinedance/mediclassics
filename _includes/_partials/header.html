@@ -33,7 +33,7 @@
 </div>
 
 <nav class="site-nav">
-  {% if site.swiftype_key or site.algolia_search.enable or site.tinysou_Key or site.local_search.enable %}
+  {% if site.swiftype_key or site.algolia_search.enable or site.tinysou_Key or site.local_search.enable or site.google_search.enable %}
     {% assign hasSearch = true %}
   {% endif %}
 
@@ -58,7 +58,9 @@
           {% if site.swiftype_key %}
             <a href="javascript:;" class="st-search-show-outputs">
           {% elsif site.local_search.enable or site.algolia_search.enable %}
-            <a href="javascript:;" class="popup-trigger">
+          <a href="javascript:;" class="popup-trigger">
+          {% elsif site.google_search.enable %}
+          <a href="https://cse.google.com/cse?cx={{site.google_search.id}}" class="google-search" target="_blank">
           {% endif %}
             {% if site.menu_icons.enable %}
               <i class="menu-item-icon fa fa-search fa-fw"></i> <br />
