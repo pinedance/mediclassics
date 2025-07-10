@@ -1,12 +1,12 @@
-<div class="copyright" >
+<div class="copyright">
   {% assign current = site.time | date: '%Y' %}
   {% assign since = site.since | downcase %}
   &copy; {% if site.since and since != current %} {{ since }} - {% endif %}
   <span itemprop="copyrightYear">{{ current }}</span>
   <span class="with-love">
-    <i class="fa fa-{{ site.authoricon }}"></i>
+    <i class="fa fa-{{ site.author.icon }}"></i>
   </span>
-  <span class="author" itemprop="copyrightHolder">{{ site.author }}</span>
+  <span class="author" itemprop="copyrightHolder">{{ site.author.name }}</span>
 </div>
 
 {% if site.copyright %}

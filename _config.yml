@@ -7,15 +7,18 @@
 title: 한의수필
 subtitle: Story of Traditional East Asian Medicine
 description: 동아시아 전통의학, 한의학과 관련된 이야기들. 오준호
-author: "Junho Oh"
+author:
+  name: "Junho Oh"
+  icon: heart         # icon between year and author @Footer
 # Support language: de, en, fr-FR, id, ja, ko, pt-BR, pt, ru, zh-Hans, zh-hk, zh-tw
 language: en
 date_format: '%Y-%m-%d'
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com' and baseurl as '/child'
-url: https://pinedance.github.io
-baseurl: /mediclassics
+url: //mediclassics.pinedance.click
+# baseurl: /mediclassics
+baseurl: ""
 permalink: /:year/:month/:day/:title
 # permalink: pretty
 
@@ -77,7 +80,7 @@ plugins:
 # Site Information Settings
 # ---------------------------------------------------------------
 
-favicon: "//pinedance.github.io/blog/assets/favicon.png"
+favicon: "//blog.pinedance.click/assets/favicon.png"
 
 # Set default keywords (Use a comma to separate)
 keywords: "Jekyll, NexT"
@@ -90,8 +93,6 @@ rss:
 # Specify the date when the site was setup
 since: 2019
 
-# icon between year and author @Footer
-authoricon: heart
 
 # Footer `powered-by` and `theme-info` copyright
 copyright: true
